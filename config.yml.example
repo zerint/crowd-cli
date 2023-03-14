@@ -1,0 +1,8 @@
+domain: 'https://crowd.atl.com'
+directories:
+  - name: 'test1'
+    username: 'app-name'
+    password: 'app-pw'
+  - name: 'test2'
+    username: 'app-name2'
+    password: 'app-pw2'
