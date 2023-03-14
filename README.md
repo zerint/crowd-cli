@@ -6,12 +6,14 @@ CLI application aimed to provide the missing functionalities when it comes to ma
 git clone <repo>
 cd crowd-cli
 python3 -m venv venv
-venv/bin/pip3 install -r requirements.txt
+venv/bin/python3 -m pip install -r requirements.txt
+cp config.yml.example config.yml
+# Configure config.yml
 venv/bin/python3 crowd.py --help
 ```
 
 ## Usage
 ```commandline
---help
+cd crowd-cli
+venv/bin/python3 crowd.py --help
 ```
-Works after every command.
