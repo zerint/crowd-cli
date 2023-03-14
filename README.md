@@ -1,5 +1,5 @@
 # Crowd CLI
-CLI application for Atlassian Crowd's api
+CLI application aimed to provide the missing functionalities when it comes to managing Atlassian Crowd's.
 
 ## Installation
 ```commandline
